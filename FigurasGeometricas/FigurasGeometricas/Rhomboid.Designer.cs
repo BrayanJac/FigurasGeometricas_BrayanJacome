@@ -1,0 +1,296 @@
+﻿namespace Rhomboid
+{
+    partial class frmRhomboid
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.grbEntradas = new System.Windows.Forms.GroupBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
+            this.txtBase = new System.Windows.Forms.TextBox();
+            this.txtSide = new System.Windows.Forms.TextBox();
+            this.lblHeight = new System.Windows.Forms.Label();
+            this.lblBase = new System.Windows.Forms.Label();
+            this.lblSide = new System.Windows.Forms.Label();
+            this.grbProceso = new System.Windows.Forms.GroupBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnResetear = new System.Windows.Forms.Button();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.grbSalidas = new System.Windows.Forms.GroupBox();
+            this.txtArea = new System.Windows.Forms.TextBox();
+            this.txtPerimeter = new System.Windows.Forms.TextBox();
+            this.lblArea = new System.Windows.Forms.Label();
+            this.lblPerimetro = new System.Windows.Forms.Label();
+            this.grbGrafico = new System.Windows.Forms.GroupBox();
+            this.picCanvas = new System.Windows.Forms.PictureBox();
+            this.grbEntradas.SuspendLayout();
+            this.grbProceso.SuspendLayout();
+            this.grbSalidas.SuspendLayout();
+            this.grbGrafico.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // grbEntradas
+            // 
+            this.grbEntradas.Controls.Add(this.txtHeight);
+            this.grbEntradas.Controls.Add(this.txtBase);
+            this.grbEntradas.Controls.Add(this.txtSide);
+            this.grbEntradas.Controls.Add(this.lblHeight);
+            this.grbEntradas.Controls.Add(this.lblBase);
+            this.grbEntradas.Controls.Add(this.lblSide);
+            this.grbEntradas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbEntradas.Location = new System.Drawing.Point(29, 13);
+            this.grbEntradas.Margin = new System.Windows.Forms.Padding(4);
+            this.grbEntradas.Name = "grbEntradas";
+            this.grbEntradas.Padding = new System.Windows.Forms.Padding(4);
+            this.grbEntradas.Size = new System.Drawing.Size(274, 143);
+            this.grbEntradas.TabIndex = 0;
+            this.grbEntradas.TabStop = false;
+            this.grbEntradas.Text = "Entradas";
+            // 
+            // txtHeight
+            // 
+            this.txtHeight.Location = new System.Drawing.Point(132, 104);
+            this.txtHeight.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHeight.Name = "txtHeight";
+            this.txtHeight.Size = new System.Drawing.Size(113, 23);
+            this.txtHeight.TabIndex = 5;
+            // 
+            // txtBase
+            // 
+            this.txtBase.Location = new System.Drawing.Point(132, 68);
+            this.txtBase.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBase.Name = "txtBase";
+            this.txtBase.Size = new System.Drawing.Size(113, 23);
+            this.txtBase.TabIndex = 4;
+            // 
+            // txtSide
+            // 
+            this.txtSide.Location = new System.Drawing.Point(132, 36);
+            this.txtSide.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSide.Name = "txtSide";
+            this.txtSide.Size = new System.Drawing.Size(113, 23);
+            this.txtSide.TabIndex = 3;
+            // 
+            // lblHeight
+            // 
+            this.lblHeight.AutoSize = true;
+            this.lblHeight.Location = new System.Drawing.Point(21, 107);
+            this.lblHeight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHeight.Name = "lblHeight";
+            this.lblHeight.Size = new System.Drawing.Size(56, 17);
+            this.lblHeight.TabIndex = 2;
+            this.lblHeight.Text = "Altura:";
+            // 
+            // lblBase
+            // 
+            this.lblBase.AutoSize = true;
+            this.lblBase.Location = new System.Drawing.Point(21, 68);
+            this.lblBase.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBase.Name = "lblBase";
+            this.lblBase.Size = new System.Drawing.Size(44, 17);
+            this.lblBase.TabIndex = 1;
+            this.lblBase.Text = "Base";
+            // 
+            // lblSide
+            // 
+            this.lblSide.AutoSize = true;
+            this.lblSide.Location = new System.Drawing.Point(21, 36);
+            this.lblSide.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSide.Name = "lblSide";
+            this.lblSide.Size = new System.Drawing.Size(44, 17);
+            this.lblSide.TabIndex = 0;
+            this.lblSide.Text = "Lado";
+            // 
+            // grbProceso
+            // 
+            this.grbProceso.Controls.Add(this.btnSalir);
+            this.grbProceso.Controls.Add(this.btnResetear);
+            this.grbProceso.Controls.Add(this.btnCalcular);
+            this.grbProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbProceso.Location = new System.Drawing.Point(29, 181);
+            this.grbProceso.Margin = new System.Windows.Forms.Padding(4);
+            this.grbProceso.Name = "grbProceso";
+            this.grbProceso.Padding = new System.Windows.Forms.Padding(4);
+            this.grbProceso.Size = new System.Drawing.Size(377, 90);
+            this.grbProceso.TabIndex = 1;
+            this.grbProceso.TabStop = false;
+            this.grbProceso.Text = "Proceso";
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(252, 36);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(100, 28);
+            this.btnSalir.TabIndex = 2;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnResetear
+            // 
+            this.btnResetear.Location = new System.Drawing.Point(132, 36);
+            this.btnResetear.Margin = new System.Windows.Forms.Padding(4);
+            this.btnResetear.Name = "btnResetear";
+            this.btnResetear.Size = new System.Drawing.Size(100, 28);
+            this.btnResetear.TabIndex = 1;
+            this.btnResetear.Text = "Resetear";
+            this.btnResetear.UseVisualStyleBackColor = true;
+            this.btnResetear.Click += new System.EventHandler(this.btnResetear_Click);
+            // 
+            // btnCalcular
+            // 
+            this.btnCalcular.Location = new System.Drawing.Point(8, 36);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(100, 28);
+            this.btnCalcular.TabIndex = 0;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            // 
+            // grbSalidas
+            // 
+            this.grbSalidas.Controls.Add(this.txtArea);
+            this.grbSalidas.Controls.Add(this.txtPerimeter);
+            this.grbSalidas.Controls.Add(this.lblArea);
+            this.grbSalidas.Controls.Add(this.lblPerimetro);
+            this.grbSalidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbSalidas.Location = new System.Drawing.Point(29, 288);
+            this.grbSalidas.Margin = new System.Windows.Forms.Padding(4);
+            this.grbSalidas.Name = "grbSalidas";
+            this.grbSalidas.Padding = new System.Windows.Forms.Padding(4);
+            this.grbSalidas.Size = new System.Drawing.Size(274, 127);
+            this.grbSalidas.TabIndex = 2;
+            this.grbSalidas.TabStop = false;
+            this.grbSalidas.Text = "Salidas";
+            // 
+            // txtArea
+            // 
+            this.txtArea.Enabled = false;
+            this.txtArea.Location = new System.Drawing.Point(132, 84);
+            this.txtArea.Margin = new System.Windows.Forms.Padding(4);
+            this.txtArea.Name = "txtArea";
+            this.txtArea.Size = new System.Drawing.Size(113, 23);
+            this.txtArea.TabIndex = 3;
+            // 
+            // txtPerimeter
+            // 
+            this.txtPerimeter.Enabled = false;
+            this.txtPerimeter.Location = new System.Drawing.Point(132, 40);
+            this.txtPerimeter.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPerimeter.Name = "txtPerimeter";
+            this.txtPerimeter.Size = new System.Drawing.Size(113, 23);
+            this.txtPerimeter.TabIndex = 2;
+            // 
+            // lblArea
+            // 
+            this.lblArea.AutoSize = true;
+            this.lblArea.Location = new System.Drawing.Point(23, 87);
+            this.lblArea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblArea.Name = "lblArea";
+            this.lblArea.Size = new System.Drawing.Size(42, 17);
+            this.lblArea.TabIndex = 1;
+            this.lblArea.Text = "Área";
+            // 
+            // lblPerimetro
+            // 
+            this.lblPerimetro.AutoSize = true;
+            this.lblPerimetro.Location = new System.Drawing.Point(23, 46);
+            this.lblPerimetro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPerimetro.Name = "lblPerimetro";
+            this.lblPerimetro.Size = new System.Drawing.Size(78, 17);
+            this.lblPerimetro.TabIndex = 0;
+            this.lblPerimetro.Text = "Perímetro";
+            // 
+            // grbGrafico
+            // 
+            this.grbGrafico.Controls.Add(this.picCanvas);
+            this.grbGrafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbGrafico.Location = new System.Drawing.Point(426, 13);
+            this.grbGrafico.Margin = new System.Windows.Forms.Padding(4);
+            this.grbGrafico.Name = "grbGrafico";
+            this.grbGrafico.Padding = new System.Windows.Forms.Padding(4);
+            this.grbGrafico.Size = new System.Drawing.Size(473, 402);
+            this.grbGrafico.TabIndex = 3;
+            this.grbGrafico.TabStop = false;
+            this.grbGrafico.Text = "Gráfico";
+            // 
+            // picCanvas
+            // 
+            this.picCanvas.Location = new System.Drawing.Point(21, 36);
+            this.picCanvas.Margin = new System.Windows.Forms.Padding(4);
+            this.picCanvas.Name = "picCanvas";
+            this.picCanvas.Size = new System.Drawing.Size(433, 346);
+            this.picCanvas.TabIndex = 0;
+            this.picCanvas.TabStop = false;
+            // 
+            // frmRhomboid
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(909, 425);
+            this.Controls.Add(this.grbGrafico);
+            this.Controls.Add(this.grbSalidas);
+            this.Controls.Add(this.grbProceso);
+            this.Controls.Add(this.grbEntradas);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "frmRhomboid";
+            this.Text = "Rombo";
+            this.grbEntradas.ResumeLayout(false);
+            this.grbEntradas.PerformLayout();
+            this.grbProceso.ResumeLayout(false);
+            this.grbSalidas.ResumeLayout(false);
+            this.grbSalidas.PerformLayout();
+            this.grbGrafico.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox grbEntradas;
+        private System.Windows.Forms.TextBox txtHeight;
+        private System.Windows.Forms.TextBox txtBase;
+        private System.Windows.Forms.TextBox txtSide;
+        private System.Windows.Forms.Label lblHeight;
+        private System.Windows.Forms.Label lblBase;
+        private System.Windows.Forms.Label lblSide;
+        private System.Windows.Forms.GroupBox grbProceso;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnResetear;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.GroupBox grbSalidas;
+        private System.Windows.Forms.TextBox txtArea;
+        private System.Windows.Forms.TextBox txtPerimeter;
+        private System.Windows.Forms.Label lblArea;
+        private System.Windows.Forms.Label lblPerimetro;
+        private System.Windows.Forms.GroupBox grbGrafico;
+        private System.Windows.Forms.PictureBox picCanvas;
+    }
+}
